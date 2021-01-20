@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Friends>
+      <Profile>
+            <FirstName>กรินทร์</FirstName>
+            <LastName>สุขสวัสดิ์</LastName>
+            <Major>เทคโนโลยีสารสนเทศ</Major>
+            <Group>2</Group>
+            <Attention>ไม่ทราบ</Attention>
+            <BloodGroup>O</BloodGroup>
+            <ProjectTopic>Animation</ProjectTopic>
+            <Advisor>ผู้ช่วยศาสตราจารย์ภาวินี  อินทร์ทอง</Advisor>
+      </Profile>
+      <Profile>
+            <FirstName>ธรณ์เทพ</FirstName>
+            <LastName>มั่นคง</LastName>
+            <Major>เทคโนโลยีสารสนเทศ</Major>
+            <Group>2</Group>
+            <Attention>การออกกำลังกาย</Attention>
+            <BloodGroup>B</BloodGroup>
+            <ProjectTopic>เซนเซอร์ตรวจวัดอุณกภูมร่างกาย</ProjectTopic>
+            <Advisor>ผู้ช่วยศาสตราจารย์ ดร.กิตติพงษ์  สุวรรณราช</Advisor>
+      </Profile>
+      <Profile>
+            <FirstName>ทัศนัย</FirstName>
+            <LastName>สุขประเสริฐ</LastName>
+            <Major>เทคโนโลยีสารสนเทศ</Major>
+            <Group>2</Group>
+            <Attention>เล่นเกม</Attention>
+            <BloodGroup>O</BloodGroup>
+            <ProjectTopic>เซนเซอร์ตรวจวัดอุณกภูมร่างกาย</ProjectTopic>
+            <Advisor>ผู้ช่วยศาสตราจารย์ ดร.กิตติพงษ์  สุวรรณราช</Advisor>
+      </Profile>
+      <Profile>
+            <FirstName>จิรายุทธ</FirstName>
+            <LastName>ชัยประสิทธิ์ผล</LastName>
+            <Major>เทคโนโลยีสารสนเทศ</Major>
+            <Group>2</Group>
+            <Attention>ไม่ทราบ</Attention>
+            <BloodGroup>O</BloodGroup>
+            <ProjectTopic>การพัฒนาแชทบอทสำหรับรายงานข้อมูลนักศึกษา</ProjectTopic>
+            <Advisor>ผู้ช่วยศาสตราจารย์ภาวินี  อินทร์ทอง</Advisor>
+      </Profile>
+      <Profile>
+            <FirstName>วรวุฒิ</FirstName>
+            <LastName>เทพคำอ้าย</LastName>
+            <Major>เทคโนโลยีสารสนเทศ</Major>
+            <Group>2</Group>
+            <Attention>ไม่ทราบ</Attention>
+            <BloodGroup>B</BloodGroup>
+            <ProjectTopic>การพัฒนาแชทบอทสำหรับรายงานข้อมูลนักศึกษา</ProjectTopic>
+            <Advisor>ผู้ช่วยศาสตราจารย์ภาวินี  อินทร์ทอง</Advisor>
+      </Profile>
+</Friends>
