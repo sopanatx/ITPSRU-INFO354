@@ -21,7 +21,7 @@ th,td,button {
 <link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet">
 </head>
 <body>
-<button type="button" class="btn btn-danger" onclick="loadXMLDoc()">แสดงผล</button>
+<button type="button" class="btn btn-success" onclick="loadXMLDoc()">แสดงผล</button>
 
 <br><br>
 <table id="demo" class="table table-striped table-hover" ></table>
@@ -40,13 +40,15 @@ function loadXMLDoc() {
 function myFunction(xml) {
   var i;
   var xmlDoc = xml.responseXML;
-  var table="<tr><th>ชื่อจริง</th><th>นามสกุล</th><th>สาขา</th><th>กลุ่มเรียน</th><th>ความสนใจ</th><th>กรุ๊ปเลือด</th><th>หัวข้อโปรเจค</th><th>อาจารย์ที่ปรึกษา</th></tr>";
+  var table="<tr><th>รายการที่</th><th>ชื่อจริง</th><th>นามสกุล</th><th>สาขา</th><th>กลุ่มเรียน</th><th>ความสนใจ</th><th>กรุ๊ปเลือด</th><th>หัวข้อโปรเจค</th><th>อาจารย์ที่ปรึกษา</th></tr>";
   var x = xmlDoc.getElementsByTagName("Profile");
   for (i = 0; i <x.length; i++) { 
     table += "<tr><td>" +
+    `${i+1}` +
+    "</td><td>" + 
     x[i].getElementsByTagName("FirstName")[0].childNodes[0].nodeValue +
     "</td><td>" + 
-    "Hi~~~~~ Todo this by your self......." +
+    x[i].getElementsByTagName("LastName")[0].childNodes[0].nodeValue +
     "</td><td>" +
     x[i].getElementsByTagName("Major")[0].childNodes[0].nodeValue +
     "</td><td>" +
