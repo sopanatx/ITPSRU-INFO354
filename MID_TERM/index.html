@@ -49,22 +49,11 @@
     }
     function myFunction(xml) {
       var i;
-      var xmlDoc = xml.responseXML;
-      console.log(xmlDoc)
-      var table = "<tr><th>ชื่อจริง</th><th>ตำแหน่ง</th><th>สาขา</th><th>คณะ</th>";
-      var x = xmlDoc.getElementsByTagName("Person");
-      console.log({x})
-      for (i = 0; i <x.length; i++) { 
-    table += "<tr><td>" +
-    x[i].getElementsByTagName("Nameper")[0].childNodes[0].nodeValue +
-    "</td><td>" +
-    x[i].getElementsByTagName("position")[0].childNodes[0].nodeValue +
-    "</td><td>"+
-    x[i].getElementsByTagName("major")[0].childNodes[0].nodeValue +
-    "</td><td>" +
-    x[i].getElementsByTagName("faculty")[0].childNodes[0].nodeValue +
-    "</td><td>"
-  }
+      var xmlDoc = xml;
+      console.log(xml)
+      //   var table = "<tr><th>ชื่อจริง</th><th>นามสกุล</th><th>สาขา</th><th>กลุ่มเรียน</th><th>ความสนใจ</th><th>กรุ๊ปเลือด</th><th>หัวข้อโปรเจค</th><th>อาจารย์ที่ปรึกษา</th></tr>";
+      //   var x = xmlDoc.getElementsByTagName("Person");
+
       document.getElementById("demo").innerHTML = table;
     }
   </script>

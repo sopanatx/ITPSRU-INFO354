@@ -1,36 +1,33 @@
-<Person>
-      <Person1>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataPerson>
+      <Person>
             <Nameper>ผู้ช่วยศาสตราจารย์ ดร.กุลวดี ปั่นวัฒนะ</Nameper>
             <position>ประธานหลักสูตรสาขาวิชาเคมี</position>
             <major>สาขาวิชาเคมี</major>
             <faculty>วิทยาศาสตร์และเทคโนโลยี</faculty>
-            <Nameper>ผู้ช่วยศาสตราจารย์ ดร.กุลวดี ปั่นวัฒนะ</Nameper>
-            <position>ประธานหลักสูตรสาขาวิชาเคมี</position>
-            <major>สาขาวิชาเคมี</major>
-            <faculty>วิทยาศาสตร์และเทคโนโลยี</faculty>
-      </Person1>
-      <Person2>
+      </Person>
+      <Person>
             <Nameper>ผู้ช่วยศาสตราจารย์ ดร.ชนิกาญจน์ จันทร์มาทอง</Nameper>
             <position>ประธานหลักสูตรสาขาวิชาเคมี</position>
             <major>สาขาวิชาชีววิทยา</major>
             <faculty>วิทยาศาสตร์และเทคโนโลยี</faculty>
-      </Person2>
-      <Person3>
+      </Person>
+      <Person>
             <Nameper>ผู้ช่วยศาสตราจารย์ ดร.อรรถพล รอดแก้ว</Nameper>
             <position>ประธานหลักสูตรสาขาวิชาบูรณาการสุขภาพ ความงาม และสปา</position>
             <major>สาขาวิชาบูรณาการสุขภาพ ความงาม และสปา</major>
             <faculty>วิทยาศาสตร์และเทคโนโลยี</faculty>
-      </Person3>
-      <Person4>
+      </Person>
+      <Person>
             <Nameper>ผู้ช่วยศาสตราจารย์ภาวินี  อินทร์ทอง</Nameper>
             <position>ประธานหลักสูตรสาขาวิชาเทคโนโลยีสารสนเทศ</position>
             <major>สาขาวิชาเทคโนโลยีสารสนเทศ</major>
             <faculty>วิทยาศาสตร์และเทคโนโลยี</faculty>
-      </Person4>
-      <Person5>
+      </Person>
+      <Person>
             <Nameper>อาจารย์อรอุมา  พร้าโมต</Nameper>
             <position>หลักสูตรสาขาวิชาวิทยาการคอมพิวเตอร์</position>
             <major>สาขาวิชาวิทยาการคอมพิวเตอร์</major>
             <faculty>วิทยาศาสตร์และเทคโนโลยี</faculty>
-      </Person5>
-</Person>
+      </Person>
+</DataPerson>
