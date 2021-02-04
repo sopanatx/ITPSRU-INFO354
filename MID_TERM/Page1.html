@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <style>
+    body {
+      font-family: "Kanit", sans-serif;
+    }
+  </style>
+
+  <title>ข้อสอบชุดที่ 1 html + bootstrap</title>
+</head>
+
+<body class="d-flex flex-column h-100 bg-gradient-dark">
+  <!-- Begin page content -->
+  <main class="flex-shrink-0">
+    <div class="container">
+      <h1 class="mt-5">ข้อสอบชุดที่ 1 html + bootstrap </h1>
+
+      </p>
+
+      <div class="alert alert-success" role="alert">จัดทำโดย นาย โสภณัฐ สุรเดช รหัสนักศึกษา 6112224060 <a
+          href="https://sites.google.com/psru.ac.th/sopanat/home"> ลิ้งก์ Site</a></div>
+
+      <form>
+        <div class="form-control">
+          <form>
+            <div class="row">
+              <div class="col">
+                <label class="form-label">ชื่อโครงการ :</label>
+                <input type="text" class="form-control" placeholder="ชื่อโครงการ" id="projectName">
+              </div>
+              <div class="col">
+                <label class="form-label">ประเภทโครงการ :</label>
+                <select id="inputState" class="form-control">
+                  <option>IoT</option>
+                  <option>Network</option>
+                  <option>eCommerce</option>
+                  <option>MIS</option>
+                  <option>Web API</option>
+                  <option>Animation</option>
+                  <option>eLearning</option>
+                  <option>mCommerce</option>
+                  <option>ML</option>
+                  <option>Data Mining</option>
+                  <option>Big Data</option>
+                  <option>AI</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <label class="form-label">รหัสนักศึกษา :</label>
+                <input type="number" class="form-control" placeholder="รหัสนักศึกษา" id="studentId1">
+              </div>
+              <div class="col">
+                <label class="form-label">รายชื่อนักศึกษา :</label>
+                <input type="text" class="form-control" placeholder="รายชื่อนักศึกษา">
+
+              </div>
+              <div class="col">
+                <label class="form-label">FB/Line :</label>
+                <input type="text" class="form-control" placeholder="FB/Line">
+
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <label class="form-label">รหัสนักศึกษา :</label>
+                <input type="number" class="form-control" placeholder="รหัสนักศึกษา">
+              </div>
+              <div class="col">
+                <label class="form-label">รายชื่อนักศึกษา :</label>
+                <input type="text" class="form-control" placeholder="รายชื่อนักศึกษา">
+
+              </div>
+              <div class="col">
+                <label class="form-label">FB/Line :</label>
+                <input type="text" class="form-control" placeholder="FB/Line">
+
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <label class="form-label">รหัสนักศึกษา :</label>
+                <input type="number" class="form-control" placeholder="รหัสนักศึกษา">
+              </div>
+              <div class="col">
+                <label class="form-label">รายชื่อนักศึกษา :</label>
+                <input type="text" class="form-control" placeholder="รายชื่อนักศึกษา">
+
+              </div>
+              <div class="col">
+                <label class="form-label">FB/Line :</label>
+                <input type="text" class="form-control" placeholder="FB/Line">
+
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <label class="form-label">อาจารย์ที่ปรึกษา :</label>
+                <input type="text" class="form-control" placeholder="อาจารย์ที่ปรึกษา">
+              </div>
+              <div class="col">
+                <div class="custom-file">
+                  <label class="form-label">อัพโหลดลายเซ็น :</label>
+                  <input type="file" class="custom-file-input form-control" id="customFileLang" lang="th">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <label class="form-label">อาจารย์ที่ปรึกษา (ร่วม) :</label>
+                <input type="text" class="form-control" placeholder="อาจารย์ที่ปรึกษา (ร่วม)">
+              </div>
+              <div class="col">
+                <div class="custom-file">
+                  <label class="form-label">อัพโหลดลายเซ็น :</label>
+                  <input type="file" class="custom-file-input form-control" id="customFileLang" lang="th">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <label class="form-label">แนบแฟ้มข้อเสนอโครงการ :</label>
+                <input type="text" class="form-control" placeholder="อาจารย์ที่ปรึกษา (ร่วม)">
+              </div>
+              <div class="col">
+                <div class="custom-file">
+                  <label class="form-label">แนบแฟ้ม :</label>
+                  <input type="file" class="custom-file-input form-control" id="customFileLang" lang="th">
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <label class="form-label">ข้อเสนอแนะโครงการ :</label>
+                <input type="text" class="form-control" placeholder="อาจารย์ที่ปรึกษา (ร่วม)">
+              </div>
+              <div class="col">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">With textarea</span>
+                  </div>
+                  <textarea class="form-control" aria-label="With textarea"></textarea>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col">
+                <button type="button" class="btn btn-success">ปุ่มยืนยัน</button>
+              </div>
+              <div class="col">
+                <button type="button" class="btn btn-warning">แก้ไข</button>
+              </div>
+              <div class="col">
+                <button type="button" class="btn btn-outline-info" onclick="submitForm();">แสดงสถานะโครงการ</button>
+              </div>
+            </div>
+          </form>
+
+
+        </div>
+  </main>
+
+  <footer class="footer mt-auto py-3 bg-light">
+    <div class="container">
+      <span class="text-muted">© 2020 - xxxxxxxxxxxx</span>
+    </div>
+  </footer>
+</body>
+<script>
+  //
+
+  function submitForm() {
+    Swal.fire({
+      icon: 'success',
+      title: 'เรียบร้อย',
+      text: `ชื่อโครงการ:${document.getElementById("projectName").value}  ประเภท​: ${document.getElementById("inputState").value} 
+      
+      
+      รหัสนักศึกษา: ${document.getElementById("studentId1").value} `,
+    })
+  }
+
+  function clearForm() {
+    Swal.fire({
+      icon: 'warning',
+      title: 'เรียบร้อย',
+      text: 'ทำการล้างฟอร์มเรียบร้อย',
+
+    })
+  }
+</script>
+
+</html>

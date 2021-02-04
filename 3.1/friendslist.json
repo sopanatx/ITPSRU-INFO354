@@ -1,0 +1,64 @@
+{
+  "friendslist": [
+    {
+      "Id": 1,
+      "FirstName": "จิรายุทธ",
+      "LastName": "ชัยประสิทธิ์ผล",
+      "Group": 2,
+      "Major": "เทคโนโลยีสารสนเทศ",
+      "BloodGroup": "O",
+      "Attention": "Online Game Streamer",
+      "Talent": "-",
+      "ProjectTopic": "การพัฒนาแชทบอทสำหรับรายงานข้อมูลนักศึกษา",
+      "Advisor": "ผู้ช่วยศาสตราจารย์ภาวินี  อินทร์ทอง"
+    },
+    {
+      "Id": 2,
+      "FirstName": "วรวุฒิ",
+      "LastName": "เทพคำอ้าย",
+      "Group": 2,
+      "Major": "เทคโนโลยีสารสนเทศ",
+      "BloodGroup": "B",
+      "Attention": "-",
+      "Talent": "-",
+      "ProjectTopic": "การพัฒนาแชทบอทสำหรับรายงานข้อมูลนักศึกษา",
+      "Advisor": "ผู้ช่วยศาสตราจารย์ภาวินี  อินทร์ทอง"
+    },
+    {
+      "Id": 3,
+      "FirstName": "โสภณัฐ",
+      "LastName": "สุรเดช",
+      "Group": 2,
+      "Major": "เทคโนโลยีสารสนเทศ",
+      "BloodGroup": "B",
+      "Attention": "Programming",
+      "Talent": "-",
+      "ProjectTopic": "Student Application",
+      "Advisor": "ผู้ช่วยศาสตราจารย์ภาวินี  อินทร์ทอง"
+    },
+    {
+      "Id": 4,
+      "FirstName": "ธรณ์เทพ",
+      "LastName": "มั่นคง",
+      "Group": 2,
+      "Major": "เทคโนโลยีสารสนเทศ",
+      "BloodGroup": "B",
+      "Attention": "Leadership",
+      "Talent": "-",
+      "ProjectTopic": "เซนเซอร์ตรวจวัดอุณหภูมิร่างกา",
+      "Advisor": "ผู้ช่วยศาสตราจารย์ ดร.กิตติพงษ์  สุวรรณราช"
+    },
+    {
+      "Id": 5,
+      "FirstName": "ทัศนัย",
+      "LastName": "สุขประเสริฐ",
+      "Group": 2,
+      "Major": "เทคโนโลยีสารสนเทศ",
+      "BloodGroup": "O",
+      "Attention": "-",
+      "Talent": "-",
+      "ProjectTopic": "เซนเซอร์ตรวจวัดอุณหภูมิร่างกาย",
+      "Advisor": "ผู้ช่วยศาสตราจารย์ ดร.กิตติพงษ์  สุวรรณราช"
+    }
+  ]
+}
